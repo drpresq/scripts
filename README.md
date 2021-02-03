@@ -1,7 +1,5 @@
 # Scripts
 
-# ***This is a Dev Branch. It may not work. Please use Master Branch***
-
 ## Description
 
 ---
