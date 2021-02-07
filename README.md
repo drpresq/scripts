@@ -16,7 +16,7 @@ A collection of scripts that I find useful.  Mostly written in Python 3.8 and mo
   * ****Usage****: ```./disableipv6.py --help```
   * **Status**: **Working**
 
-* DisableIPv6:
+* DisableSplash:
   * **Purpose**: Disables the silent startup and shutdown splash screens
   * **Compatibility**: Debian 10 (Buster), Ubuntu 16.0
   * ****Usage****: ```./disablesplash.py --help```
