@@ -27,3 +27,9 @@ A collection of scripts that I find useful.  Mostly written in Python 3.8 and mo
   * **Compatibility**: Ubuntu 20.04, Firefox 85
   * **Usage**: `./system_check.py --help`
   * **Status**: ***Working***
+
+* AutoAtcts:
+  * **Purpose**: Automatically Downloads Custom Reports from ATCTS
+  * **Compatibility**: Windows 10
+  * **Usage**: see leading comments in file
+  * **Status**: ***Untested***
