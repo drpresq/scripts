@@ -74,27 +74,7 @@ function DownloadReport-AtctsOmatic(){
         ($Browser.Document.body.getElementsByTagName("A") | Where-Object {$_.nameprop -match "report_load.php"}).click()
         Do{Start-Sleep -s 2}Until(!($Browser.Busy))
         ($Browser.Document.body.getElementsByTagName("A") | Where-Object {$_.nameprop -match $ReportUri}).click()
-    The script does not work when PowerShell is operating in Constrained Language Mode.
-
-It won't tell you that's the problem you'll just get errors as the script tries to interact with the Internet Explorer COM Object that gets wiped out as soon as it navigates to ATCTS.
-
- 
-
- 
-
-You can verify your language mode by opening PowerShell and typing:
-
- 
-
- 
-
-$ExecutionContext.SessionState.LanguageMode
-
- 
-
- 
-
-You'll need to avoid constrained language mode in order for it to work. Your methods for doing so are your own. Don't violate any Acceptable Use Policies.    Do{Start-Sleep -s 2}Until(!($Browser.Busy))
+	Do{Start-Sleep -s 2}Until(!($Browser.Busy))
         $Browser.visible = $true
         $win = Add-Type -Name win -MemberDefinition @"
 [DllImport("user32.dll")]
